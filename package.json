@@ -1,0 +1,14 @@
+{
+  "name": "examod",
+  "version": "1.0.0",
+  "description": "Few yet worthy add-ons for Lacuna auto-moderation",
+  "scripts": {
+    "pack:puzzles": "node src/pack-puzzles.js",
+    "pack:tests": "node src/pack-tests.js",
+    "prepack": "npx prettier --write \"src/**/*.js\""
+  },
+  "author": "rovius",
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
