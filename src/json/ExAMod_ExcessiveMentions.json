@@ -1,0 +1,1 @@
+{"id":"EXAMOD_EM","name":"ExAMod_ExcessiveMentions","options":[],"trigger":"MESSAGE_CREATE","components":[{"type":"ACTION","action":{"type":"EXECUTE_CODE","execute_code":{"code":""}}}]}
