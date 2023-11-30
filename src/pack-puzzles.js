@@ -4,7 +4,7 @@ const path = require('path')
 const testsPath = path.join(__dirname, '..', 'tests')
 const puzzlesPath = path.join(__dirname, '..', 'puzzles')
 
-// Create the tests folder if it doesn't exist
+// Create the puzzles folder if it doesn't exist
 if (!fs.existsSync(puzzlesPath)) {
     fs.mkdirSync(puzzlesPath)
     console.log(`Folder created: ${puzzlesPath}`)
