@@ -7,9 +7,9 @@ const config = {
     ignoredChannels: ['channelID1', 'channelID2'],
     ignoredMembers: ['userID1', 'userID2'],
     ignoreAdmins: false,
+    violationMessage: `Repeated messages detected. Please refrain from spamming.`,
     maxMessages: 5,
     timeThreshold: 5000,
-    violationMessage: `<@${member.user.id}>\nRepeated messages detected. Your last message has been deleted.`,
 }
 
 async function handleViolation(messageId, channelId, violationMessage) {
@@ -27,7 +27,7 @@ if (
 }
 
 // Retrieve the user's message history
-const userKey = `${guild.id}.${member.user.id}.plugins.automod`
+const userKey = `${guild.id}.${member.user.id}.plugins.examod`
 const userMessages = (await getValue(`${userKey}.messages`)) || []
 const consecutiveRepeatedCount =
     (await getValue(`${userKey}.consecutiveRepeatedCount`)) || 0

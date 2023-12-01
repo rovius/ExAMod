@@ -7,8 +7,8 @@ const config = {
     ignoredChannels: ['channelID1', 'channelID2'],
     ignoredMembers: ['userID1', 'userID2'],
     ignoreAdmins: false,
+    violationMessage: `Emoji spam detected! Keep your messages clean.`,
     maxEmojis: 5,
-    violationMessage: `<@${member.user.id}>\nExcessive emoji usage detected. Your message has been deleted.`,
 }
 
 async function handleViolation(messageId, channelId, violationMessage) {

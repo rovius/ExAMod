@@ -7,11 +7,11 @@ const config = {
     ignoredChannels: ['channelID1', 'channelID2'],
     ignoredMembers: ['userID1', 'userID2'],
     ignoreAdmins: false,
+    violationMessage: `Your message has too many mentions. Keep it concise.`,
     checkEveryone: true,
     checkMembers: true,
-    checkRoles: true,
+    checkRoles: false,
     maxMentions: 3,
-    violationMessage: `<@${member.user.id}>\nExcessive mentions detected. Your message has been deleted.`,
 }
 
 async function handleViolation(messageId, channelId, violationMessage) {
