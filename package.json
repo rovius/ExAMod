@@ -5,7 +5,7 @@
   "scripts": {
     "pack:puzzles": "node src/pack-puzzles.js",
     "pack:tests": "node src/pack-tests.js",
-    "prepack": "npx prettier --write \"src/**/*.js\""
+    "prepack": "npx prettier --write \"{src/**/*.js,**/**/*.md}\""
   },
   "author": "rovius",
   "devDependencies": {
