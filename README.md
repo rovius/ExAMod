@@ -1,20 +1,24 @@
-# LacunaPluginTemplate
+# ExAMod
 
-Это шаблон создания плагина для бота [Lacuna](https://lacunabot.com).
+_**Ex**tended **A**utomatic **Mod**eration_, few yet worthy add-ons for Lacuna auto-moderation.
 
-## Как использовать этот шаблон
+**NOTE: Due to this plugin's nature, its features are only operational on servers with an active Lacuna Diamond subscription.**
 
-1. Клонируйте этот репозиторий
-2. В панели управления сервером на сайте экспортируйте пользовательские команды и автоматизации, которые вы хотите добавить в ваш плагин и загрузите файлы в папку `puzzles/`
-3. Отредактируйте файл `manifest.json` добавив туда информацию о плагине
-4. Отредактируйте `README.md` и добавьте подробное описание для вашего плагина
-5. Измените описание вашего репозитория
+## Features
 
-## Как опубликовать плагин
+1. **Mention Filtering:**
 
-1. Добавьте тему (topic) `lacuna-bot-plugin` для вашего репозитория в настройках информации
-2. Дождитесь, когда ваш плагин пройдет проверку
+    - Prevents excessive member/role mentions, as well as everyone/here pings.
 
-## Помощь
+2. **Emoji Spam Filtering:**
 
-Вы можете задать свои вопросы на нашем [официальном сервере](https://discord.gg/n8ZkQMPb).
+    - Curbs the spread of excessive emojis in messages.
+
+3. **Repeated Messages Filtering:**
+    - Identifies and handles repeated messages for effective moderation.
+
+Each module comes with configurable options. For detailed customization, refer to the [documentation](docs/configuration.md).
+
+## Contributing
+
+For details on how to contribute, see the [Contributing](docs/contributing.md) file.
