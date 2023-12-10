@@ -4,19 +4,19 @@
 
 These settings are common to all ExAMod plugin filters, although different values can be set for each specific filter.
 
-1. `ignoredChannels` _snowflake_
+1. `ignoredChannels` _array of [strings](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String) (snowflake)_
 
     - List of channel IDs to exclude from filtering.
 
-2. `ignoredMembers` _snowflake_
+2. `ignoredMembers` _array of [strings](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String) (snowflake)_
 
     - List of user IDs whose messages will be ignored.
 
-3. `ignoreAdmins` _boolean_
+3. `ignoreAdmins` _[boolean](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Boolean)_
 
     - Toggle to filter or allow messages from server administrators.
 
-4. `violationMessage` _string_
+4. `violationMessage` _[string](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String)_
     - Custom message sent when a violation is detected.
 
 ### Usage example
@@ -36,7 +36,7 @@ The Excessive emojis filter aims to curb the spread of excessive emojis in messa
 
 ### Filter options
 
-1. `maxEmojis` _number_
+1. `maxEmojis` _[number](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number)_
     - Number of repeated emojis allowed in a single message.
 
 ### Usage example
@@ -57,19 +57,19 @@ The Excessive mentions filter is designed to prevent excessive mentions in messa
 
 ### Filter options
 
-1. `checkEveryone` _boolean_
+1. `checkEveryone` _[boolean](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Boolean)_
 
     - Toggle to check for '@everyone' and '@here' mentions.
 
-2. `checkMembers` _boolean_
+2. `checkMembers` _[boolean](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Boolean)_
 
     - Toggle to check for member mentions.
 
-3. `checkRoles` _boolean_
+3. `checkRoles` _[boolean](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Boolean)_
 
     - Toggle to check for role mentions.
 
-4. `maxMentions` _number_
+4. `maxMentions` _[number](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number)_
     - Number of mentions allowed in a single message.
 
 ### Usage Example
@@ -93,11 +93,11 @@ The Repeated messages filter identifies and handles repeated messages.
 
 ### Filter options
 
-1. `maxMessages` _number_
+1. `maxMessages` _[number](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number)_
 
     - Number of repeated messages allowed in a given time period.
 
-2. `timeThreshold` _number_
+2. `timeThreshold` _[number](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number)_
     - Time period (in milliseconds) within which repeated messages are checked.
 
 ### Usage Example
