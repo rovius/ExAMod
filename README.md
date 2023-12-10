@@ -17,8 +17,8 @@ _**Ex**tended **A**utomatic **Mod**eration_, few yet worthy add-ons for Lacuna a
 3. **Repeated Messages Filtering:**
     - Identifies and handles repeated messages for effective moderation.
 
-Each module comes with configurable options. For detailed customization, refer to the [documentation](docs/configuration.md).
+Each module comes with configurable options. For detailed customization, refer to the [documentation](https://github.com/rovius/ExAMod/blob/master/docs/configuration.md).
 
 ## Contributing
 
-For details on how to contribute, see the [Contributing](docs/contributing.md) file.
+For details on how to contribute, see the [Contributing](https://github.com/rovius/ExAMod/blob/master/docs/contributing.md) file.
