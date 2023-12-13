@@ -1,6 +1,6 @@
 # ExAMod Plugin Configuration Guide
 
-## Generic Options
+### Generic options
 
 These settings are common to all ExAMod plugin filters, although different values can be set for each specific filter.
 
@@ -19,7 +19,7 @@ These settings are common to all ExAMod plugin filters, although different value
 4. `violationMessage` _[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)_
     - Custom message sent when a violation is detected.
 
-## Usage example
+### Usage example
 
 ```js
 {
@@ -72,7 +72,7 @@ The Excessive mentions filter is designed to prevent excessive mentions in messa
 4. `maxMentions` _[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_
     - Number of mentions allowed in a single message.
 
-### Usage Example
+### Usage example
 
 ```js
 {
@@ -100,7 +100,7 @@ The Repeated messages filter identifies and handles repeated messages.
 2. `timeThreshold` _[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_
     - Time period (in milliseconds) within which repeated messages are checked.
 
-### Usage Example
+### Usage example
 
 ```js
 {

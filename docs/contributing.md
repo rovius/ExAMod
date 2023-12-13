@@ -21,42 +21,42 @@ This guide assumes you have NodeJS and npm installed, and a Discord server with 
 
 3. Install `devDependencies`
 
--   Install development dependencies after cloning your fork using `npm`.
+    - Install development dependencies after cloning your fork using `npm`.
 
-3. **Create a Branch**
+4. **Create a Branch**
 
     - Create a new branch for your changes.
         ```bash
         git checkout -b feature/your-feature
         ```
 
-4. **Make Changes**
+5. **Make Changes**
 
     - Implement your feature or fix bugs. Ensure your changes follow the coding style of the project by running `npm run prepack` after editing `.js` files.
 
-5. **Pack Test Files**
+6. **Pack Test Files**
 
--   After you've finished writing and formatting code, run `npm run pack:tests` to make test files. Note that this will overwrite files in your `tests` folder. You should then import them into Lacuna's dashboard and test the functionality. If there are any errors, return to the previous step.
+    - After you've finished writing and formatting code, run `npm run pack:tests` to make test files. Note that this will overwrite files in your `tests` folder. You should then import them into Lacuna's dashboard and test the functionality. If there are any errors, return to the previous step.
 
-6. **Pack Puzzles**
+7. **Pack Puzzles**
 
--   If the test files contain no bugs, you can export them as "puzzles" to be included into the plugin. You can achieve this by running `npm run pack:puzzles`. Note that this will overwrite files in your `puzzles` folder.
+    - If the test files contain no bugs, you can export them as "puzzles" to be included into the plugin. You can achieve this by running `npm run pack:puzzles`. Note that this will overwrite files in your `puzzles` folder.
 
-7. **Commit Changes**
+8. **Commit Changes**
 
     - Commit your changes with descriptive commit messages.
         ```bash
         git commit -m "Add your descriptive message here"
         ```
 
-8. **Push Changes**
+9. **Push Changes**
 
     - Push your changes to your forked repository.
         ```bash
         git push origin feature/your-feature
         ```
 
-9. **Submit a Pull Request (PR)**
+10. **Submit a Pull Request (PR)**
     - Create a Pull Request on the original repository.
     - Provide a clear title and description for your changes.
 
